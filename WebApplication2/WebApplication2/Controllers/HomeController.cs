@@ -34,6 +34,7 @@ namespace WebApplication2.Controllers
             string result = "";
             var buffer = "";
             var nyeeez = "";
+            var nyez3 = "baka";
 
             if (postcode != "" && postcode != null)
             {
