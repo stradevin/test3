@@ -400,6 +400,7 @@ namespace WebApplication2.Controllers
         [AllowAnonymous]
         public ActionResult ExternalLoginFailure()
         {
+            var ohboi = "";
             return View();
         }
 
