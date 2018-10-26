@@ -26,5 +26,24 @@ namespace WebApplication2.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public ActionResult Get_State2(string postcode)
+        {
+
+            string result = "";
+            var buffer = "";
+
+            if (postcode != "" && postcode != null)
+            {
+
+                buffer = "1234";
+
+            }
+
+
+            return Json(result, JsonRequestBehavior.AllowGet);
+
+        }
     }
 }
